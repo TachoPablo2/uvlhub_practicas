@@ -10,3 +10,5 @@ class FeaturemodelSeeder(BaseSeeder):
         ]
 
         self.seed(data)
+
+#comentario de prueba
