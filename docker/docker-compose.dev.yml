@@ -58,6 +58,7 @@ services:
 
   selenium-chrome:
     container_name: selenium_chrome_container
+    platform: linux/amd64
     image: selenium/node-chrome:latest
     shm_size: 2gb
     ports:
@@ -71,6 +72,7 @@ services:
 
   selenium-firefox:
     container_name: selenium_firefox_container
+    platform: linux/amd64
     image: selenium/node-firefox:latest
     shm_size: 2gb
     ports:
